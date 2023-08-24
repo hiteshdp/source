@@ -1,0 +1,4 @@
+sshpass -p "4l{@OJ0DOLsD" rsync  -vvvurz --progress --delete superadmin/* beta1projectbeta@ip-107-180-106-43.ip.secureserver.net:/home/beta1projectbeta/public_html/lifebuilder-superadmin-internal
+
+
+Test rsync hdp

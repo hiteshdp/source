@@ -1,0 +1,485 @@
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+	
+	.nav-link { font-size: 10px; }
+	.btn-blue { padding: 12px 45px; }
+	.social-links li { padding: 0 7px; }
+	/*.footer .footer-links li a { margin-left: 0; }*/
+	.navbar-nav .nav-link { font-size: 14px; }
+}
+@media only screen and (max-width: 767px) {
+	body { padding-top: 66px;  padding-bottom: 0; }
+	.show-migraine-might-css { padding-top: 56px; }
+	.mobilelogo { padding-left: 15px; }
+	.show-migraine-might-css .fixed-top .navbar-nav .nav-link { color: #000; }
+   h1 { font-size: 30px !important; }
+   .mob-nav { top: 10px; }
+	.home-video { height: 200px !important; }
+	.navbar-nav .nav-link { color: #000; }
+	.nav-link span { width: 32px; display: inline-block; vertical-align: middle; margin-top: -6px; }
+	.nav-link img { vertical-align: middle; }
+	.sidebar .nav-item { line-height: 31px; }
+	.bg-dark .navbar-nav .nav-link { border-bottom: 1px solid #dadada;	}
+	/*.mobile-add { position: fixed;  bottom: 100px; right: 10px; z-index: 1; }*/
+	.mobile-add { position: fixed;  bottom: 30px; left: 0px; z-index: 1;opacity: 1;}
+	#editprofileform .form-btn.mt-4 { margin-top: 0 !important;  }
+	#editprofileform .text-secondary { padding-bottom: 20px; display: block; }
+	.btn.btn-green { font-size: 14px; }
+	.footer{
+        padding: 32px 24px;
+        height: auto;
+        position: static;
+		font-size: 13px;
+		text-align: center;
+    }
+    .footer .footer-links{
+        flex-direction: column;
+    }
+	.navbar-nav .nav-item {
+		margin: 0;
+	}
+	.navbar-nav .nav-link {
+		font-weight: 400;
+	}
+	.fixed-top { background: #FFFFFF; box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); border-radius: 0px; }
+	.acc-title { width: 80%; }
+	.btn.btn-secondary.dropdown-toggle { font-size: 14px; }
+	.text-right .dropdown-menu.show { left: -120px; }
+	.order-col-2 {
+		-ms-flex-order: 2;
+		order: 2;
+	  }
+	  .order-col-1 {
+		-ms-flex-order: 1;
+		order: 1;
+	  }
+	  .contact-info { margin-top: 20px;}
+	  .home-main-title { margin: 20px 0; font-size: 20px; text-align: center; }
+	  .block-list { margin-bottom: 20px; height: auto; }
+	  .right-search {margin-bottom: 10px !important;}
+	  .right-block h2 { font-size: 22px; margin-bottom: 15px; }
+	  .right-block p { font-size: 28px;  max-width: 100%; }
+	  .video-part p { font-size: 18px; }
+	  
+	  .block-list-title { font-size: 22px; }
+	  .block-list p { font-size: 18px; }
+	  .our-story .page-title h1 {font-size: 16px !important; }
+	  .our-story .post-column h3 { font-size: 22px; }
+	  .our-story .post-column .post-description .post-date { font-size: 14px; }
+	  .our-story .post-column .post-description p { font-size: 16px; }
+	  .our-story .post-detail .blog-detail p { font-size: 16px; }
+	  .mob-font {font-size: 12px; }
+	  .small-text {font-size: 12px; }
+	  .form-control:focus ~ .float-label.mob-font, .form-control:not(:placeholder-shown) ~ .float-label.mob-font {
+		  font-size: 12px; z-index: 9999; }
+	  .form-control:focus ~ .float-label.mob-font, .form-control:not(:placeholder-shown) ~ .float-label.mob-font {
+		top: -8px; }
+	 .float-label.mob-font { top: 14px; }
+	 .round-search .float-label { left: 34px; }
+	 .typeahead { left: 0 !important; }
+	 .form-control:focus ~ .float-label, .form-control:not(:placeholder-shown) ~ .float-label {font-size: 12px; }
+	.float-label { font-size: 12px; top: 18px; }
+	.form-control:focus ~ .float-label, .form-control:not(:placeholder-shown) ~ .float-label { top: -9px; }
+	.mob-font-inner { font-size: 16px !important; }	
+	.home-banner { padding: 0 20px; }
+	.home-banner::before { content: none; }
+	.home-banner::after {  content: ''; position: absolute; background: url("~/images/mobile-banner.png") no-repeat !important; width: 360px; height: 223px; top: inherit; bottom: 0; left: 50%; transform: translateX(-50%);  }
+	.home-banner .floating { padding-top: 32px; }
+	.footer .footer-links li a { margin-left: 0; display: block;  margin-top: 15px; }
+	.social-links { justify-content: center;     margin: 15px 0 30px 0px; }
+	.footer .footer-links li { display: block; }
+	.footer-right { text-align: center; }
+	nav.float-action-button { top: -335px; right: 0; }
+	.home-new-hero-text .round-search .float-label {  font-size: 12px; left: 42px; top: 14px; }
+	.footer-links li img { margin-top: 0; }
+	.mobsearch .float-label { font-size: 12px !important; top: 16px; }
+	.footer p { padding-left: 0; }
+	.home-banner h1 { font-size: 16px !important; }
+	.deseases-list { padding-left: 0; }
+	.right-search label { font-size: 12px; }
+	.nav-btn-dark-blue img {
+		float: left;
+		margin-top: 15px;
+		padding-left: 5px;
+	}
+	.nav-btn-dark-blue { max-width: 155px;
+		margin-left: 15px !important;
+		margin-top: 15px !important; }
+		.nav-btn-dark-blue a {
+			padding: 8px 3px 8px 0px !important;
+		}
+
+		.rx .tab-group li a{padding: 10px; line-height: 24px;}
+		.rx .right-search input{font-size: 12px;}
+		.rx .suggestion-text{font-size: 12px; text-align: center;}
+
+		.rx .round-search .rounded{height: 48px;}
+		.rx .round-search.right-search .input-group-text{padding: 0 0.6rem !important;}
+
+		.rx .floating .save-action-input .form-group{font-size: 16px; max-width: 190px;}
+
+		.rx .rating-star-block{padding: 15px;}
+		.rx .clarity-info ul{gap: 10px;}
+		.rx .clarity-info ul li a{font-size: 14px;}
+		.rx .small-text .deseases-list { overflow-x: auto; display: flex; padding: 10px 0;}
+		.rx .deseases-list .btn-outline-dark{flex: none;}
+
+		#progressbar {height: 64px !important; margin-left: 24px;}	
+		#progressbar strong{display: none; bottom: 0;}
+		#progressbar .INSUFFICIENT_RELIABLE_EVIDENCE_to_RATE.active strong {
+			display: flex;
+			position: relative;
+			align-items: center;
+		}
+		#progressbar li.active strong {
+			margin-top: -16px;
+		}
+
+		#progressbar li.active:before{width: 16px; height: 16px; bottom: 2px;}
+
+		.rx .evidence-info {
+			margin: 0;
+			padding: 10px 0;
+			font-size: 12px;
+		}
+		
+
+		#progressbar .default-dot {
+			width: 16px;
+			height: 16px;
+			left: 26px;
+			top: 15px;
+		}
+		
+		#progressbar li{top: 16px;}
+
+		.rx-popup{margin-top: 0; padding: 10px 0; font-size: 14px;}
+		.add-accordion a { font-size: 0;    display: block;
+			padding-top: 4px; }
+		.intergrative-accordion .card h2 { width: calc(100% - 50px); }
+		.acc-progress, .acc-pro-text { margin-left: 0; }
+		.acc-progress span { margin: 0; }
+		.acc-progress-list { margin-left: 0 !important; }
+		.addcondition-info::before { left: inherit; transform: inherit;	right: 0; }
+		.addcondition-info .info-link-popup a { display: inline-block; font-size: 16px; }
+		.tab-group.nav-tabs .nav-item { flex: 1; }
+		.tab-pane .col-md-6.pr-1 { padding-right: 15px !important; }
+		.tab-pane .col-md-6.pl-1 { padding-left: 15px !important; }
+		.tab-pane .login-btn span {
+			padding-left:6px;
+		  }
+		  .acc-progress { flex-direction: column;}
+		  .acc-progress-list { padding: 10px !important; }
+		  .filter-condition { padding: 0; }
+		  .filter-bar {     align-items: flex-start;
+			justify-content: space-between;
+			max-width: 100%;
+			flex-direction: column;
+			position: relative;
+		 }
+		 .btn-report { 
+			font-size: 12px;
+			padding: 10px 12px;
+		}
+			.bg-dark-blue .addcondition-info { width: auto; top: 62px;}
+			.bg-dark-blue .addcondition-info::before {
+				left: 48%;
+			}
+			.report-save { padding-right: 0; }
+			.rx .btn { margin-bottom: 15px; }
+			.rx .btn-blue { padding: 8px 15px; }
+
+			.member-img{height: 150px; margin-bottom: 10px;}
+			.contact-info .btn{width: 100%;}
+			.contact-info a.btn-info{margin-right: 0px !important;}
+			.rx .interactions-details .accordion .acc-title { display: inherit;}
+			.rx .interactions-details .card-header.no-interaction .acc-title span {  position: static; float: right; font-size: 11px; }
+			.confirm-text { padding: 20px; }
+			.conf-back { left: 12px; top: 20px; }
+			.cabinet-info-icons { right: 42px; }
+			// .border-right { border-right: none !important; border-bottom: 8px solid #fff ; }
+			.research-box-right .col-md-4 { flex: 0 0 50%; max-width: 50%;}
+			.home-banner .round-search .float-label { font-size: 14px;     border-radius: 20px; }
+		// .popover {
+		// 	max-width: 100% !important;
+		// 	background-color: #fff !important;
+		// 	position: absolute;
+		// 	padding: 20px !important;
+		// 	top: 0px;
+		// 	left: 0px;
+		// 	border-radius: 4px !important;
+		// 	transform: translate3d(0px, 286px, 0px) !important;
+		// 	box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15) !important;
+		// 	border: none !important;
+		// 	margin: 0 15px;
+		// }
+
+		// .popover .arrow {
+		// 	left: 47% !important;
+		// 	right: 0;
+		// }
+		.cabinet-intercation { padding: 0 10px; }
+		.cabinet-acco-title { margin-left: 0; width: 62%; }
+		.interactions-accordion .int-headeing { width: 72%; }
+		.tagged-condition .invisible { display: none; }
+		.tour-popup { width: 100%; transform: inherit; top: inherit;  -webkit-transition: opacity 0.3s ease-out, bottom 0.3s ease-out;
+			-moz-transition: opacity 0.3s ease-out, bottom 0.3s ease-out;
+			-o-transition: opacity 0.3s ease-out, bottom 0.3s ease-out;
+			transition: opacity 0.3s ease-out, bottom 0.3s ease-out;  }
+		.mobile-popup { position: fixed; bottom: 0; z-index: 999; top: inherit; border-radius: 20px 20px 0px 0px; }
+		.add-drugs-popup { height: auto; position: absolute; transform: inherit; bottom: inherit; top: 0; width: 95%; z-index: 1042; }
+		.add-supplement-title { justify-content: center !important; }
+		.bg-blue { margin-left: -15px; margin-right: -15px;	border-radius: 0; }
+		.top-minus-two { right: 8px; }
+		.sub-menu .active{
+			color: #35c0ed;
+			font-weight: bold;
+		}
+	.cabinet-title.mobile{
+		
+		width: 100%;
+	}
+	.cabinet-title.mobile span{
+		color: #35c0ed;
+		font-weight: bold;
+	}
+	.cabinet-header.mobile{
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+
+	.filter-bar .navbar-nav {
+		width: 100%;
+	}
+	.add-drug-tab .nav-link { justify-content: flex-start; font-size: 12px; }
+	.add-drug-tab .nav-link img { margin-right: 7px; }
+	.cabinet-accordion .card h2 { width: 100%; }
+	.cabinet-action-list { width: 100%; display: inline-flex; margin-top: 15px; }
+	.mobile-popup .nav-link span { width: auto }
+	/*.mobile-popup .nav-link { justify-content: space-evenly; }*/
+	.info-popup { width: 250px; left: 5px; }
+	.medicineCabinetData h2 { width: 100% !important; }
+	.medicineCabinetData .cabinet-acco-title { width: 100%; }
+	.medicineCabinetData .cabinet-acco-img { margin-right: 10px; }
+	.footer-trc{
+		position: absolute;
+		bottom: -8px;
+		width: 100%;
+		background-color: white;
+		padding-bottom: 8px;
+	}
+	.scroll-popup{ 
+		max-height: 350px;
+		margin-bottom: 125px;
+	}
+	.symptom-name { font-size: 10px !important; padding: 0px 0 !important; position: absolute;
+		top: 1px; left: 0; right: 0; opacity: 1; }
+
+	.symptom-day { width: 84%; margin-top: 0px; font-size: 12px; } 
+	input:checked ~ .checkmark .symptom-name { padding-top: 7px !important; }
+	.symptom-tracker-header{  text-align: left; align-items: center; }
+
+	.symptom-day .symptom-container input:checked ~ .checkmark{
+		padding: 2px 6px 5px 6px;
+	}
+
+	.symptom-container {
+		width: 85%;
+		padding: 0;
+		position: relative;
+	}
+	.symptom-container .checkmark { height: 17px; }
+	.st-left img { height: auto; }
+	.first-label{
+		width: 340px !important;
+	}
+
+	.second-label{
+		width: 380px !important;
+	}
+
+	.third-label{
+		width: 300px !important;
+	}
+
+	.fourth-label{
+		width: 260px !important;
+	}
+
+	.loader{
+		margin-bottom: 120px;
+	}
+	.cabinet-title-header { flex-direction: column; }
+	.btn-border { text-align: left; padding: 10px 1px; font-size: 12px; }
+	.btn-border img { width: 22%; height: auto; margin: auto; }
+	.btn-active::after { bottom: -12px; left: 43%; }
+	.btn-border:hover::after { bottom: -12px; left: 43%; }
+	.filter-title { display: none; }
+	.filter-title-mob { display: block; }
+	.cabinet-add { flex-direction: column-reverse; }
+	.cabinet-add a { width: auto; }
+	.filter-add-mobile {text-align: center; display: flex; justify-content: space-between; width: 100%;  align-items: flex-end;    margin-bottom: 15px;	}
+	.filter-header-left { width: 100%; margin: 0; }
+	.filter-header-left .new-filter-btn { width: 100%; margin: 0; }
+	.cabinet-intercation { margin: 0 5px !important; }
+	.btn-conditoin { padding: 4px 10px; }
+	.popup-condition-list li { margin: 10px 15px 10px 0px; }
+	.event-title-header { position: static; text-align: center; margin-top: 20px; }
+	.symptom-profile-name { position: static; }
+	.filter-header-left .new-filter-btn a{
+		justify-content: center;
+	}
+	.graph-view { margin: -15px 20px auto -16px; max-width: 100%; }
+	.graph-left { flex: 0 0 94px; padding: 10px; font-size: 9px; }
+	.graph-date { margin-left: 93px; margin-right: -10px; }
+	.graph-date .date-view { font-size: 4px; }
+	.no-data { left: 0; font-size: 10px; padding-left: 95px; text-align: center; }
+	.date-view { left: 0px; }
+	.symptom-dashboard a { font-size: 9px; }
+	.add-event-notes-file { padding: 4px 6px; }
+	.event-date-picker { flex-direction: column; align-items: inherit }
+	.legend { flex-direction: row; margin-top: 0; }
+	.legend-list { margin: 3px; }
+	.date-container { flex: inherit; }
+	.cabinet-title-header h1 { margin-bottom: 0; }
+	.container750 { margin-top: 0; }
+	.sth-date { font-size: 11px; margin-right: 5px; }
+	.symptom-name-header { font-size: 10px; }
+	.stacked-bar { height: 8px; }
+	.symptom-label-main { font-size: 11px; }
+	.st-left { flex: 0 0 114px; }
+	.symptom-icon { width: 30px; height: auto; }
+	.check-label .symptom-name { opacity: 1; text-align: left; padding-left: 5px !important; top: 0; font-size: 14px !important; }
+	.symptom-name-new { display: none; }
+	.symptom-label-new { margin-right: 0; }
+	.w-25 {  width: 40%!important; }
+	.add-symptom-btn{ right: -45px;	}
+	.symptom-tracker-list-inner-new { flex: 1; }
+	.gradient-dropdown .select2-container--default .select2-selection--single .select2-selection__arrow b { width: 11px !important;
+	height: 11px !important; }
+	.gradient-dropdown .select2-container--default .select2-selection--single .select2-selection__arrow { top: 6px !important; right: 10px !important; }
+	.ui-datepicker-calendar a { font-size: inherit; }
+	.suggest-symptom-popup { width: 90%; height: auto; position: absolute; transform: inherit; bottom: inherit; top: 0;}
+	.d-inherit { display: inherit !important; } 
+	#select2-dosageType-results { min-width: inherit !important; }
+	.save-exit-buttons button {
+		margin: 0 10px;
+	}
+	.main-popup-textinfo { font-size: 12px; }
+	.gradient-bg { padding: 16px; }
+	.mobile-view-message{
+		position: absolute;
+		z-index: 99999;
+		width: 100%;
+	}
+
+	.quiz-intro-first-image{
+        position: absolute;
+        width: 240px;
+        top: 2px;
+        left: 37px;
+        transform: rotate( 352deg );
+    }
+    .quiz-intro-second-image {
+        position: relative;
+        top: inherit;
+        right: -35px;
+        width: 210px;
+    }
+	.quiz-flow .btn-border img { width: auto; margin-right: 5px; }
+	.quiz-flow .btn-border { line-height: 1.5; font-size: 16px; }
+	.btn-text-small { font-size: 12px; }
+	.add-medicine {
+		position: relative;
+		right: -20px;
+		top: 35px;
+	}
+	.symptom-toggle {
+		position: absolute;
+		left: 45px;
+		top: -25px;
+	}
+	.score-borad-list  { padding: 10px 5px; }
+	.score-medicine-title, .disability { font-size: 12px; line-height: 16px; }
+	.score-active::after { bottom: 100%; background-size: 90%; }
+	.edit-cabinet-medicine .d-none { display: block !important; }
+	.btn-text { align-items: center; }
+	.duration-label { font-size: 14px; padding: 0; }
+	.duration-dropdwon-new { margin-top: -3px;   flex: 0 0 60px; margin-left: 5px; margin-right: 5px; font-size: 11px !important; }
+	.duration-dropdwon-new { padding: 1px 4px; }
+	.duration-dropdwon-new .dropdown-toggle { font-size: 10px; }
+	.duration-dropdwon-new .dropdown-menu { min-width: 80px; left: 1px !important;
+		margin-top: 4px; }
+	.symptom-tracker-list { margin: 20px 0 30px 0px; padding-top: 15px; }
+	.duration-dropdwon-new .dropdown-toggle::after { right: 6px; top: 7px; }
+	.info-note-popup .close { top: 10px; right: 10px; }
+	.d-mobile-none { display: none; }
+	.providers-doctor-info { margin-left: 0; }
+	.provider-list-photo a { font-size: 14px; }
+	.provider-access a { font-size: 14px; display: flex; margin-bottom: 4px; }
+	.doctor-photo { width: 60%; }
+	.doctor-photo img { width: 100%; height: auto; }
+	.provider-popup .modal-body { padding: 10px; }
+	.provider-popup .modal-header { margin-bottom: 5px; }
+	.doctor-name h2 { font-size: 16px; }
+	.patients-flow .doctor-photo img { width: 80px; height:80px; }
+	.patients-flow  .doctor-photo { width: 80px; }
+	.providers-header h2{ font-size: 20px; margin: auto; max-width: 250px; }
+	.providers-header .arrow-back-doc{ top: 20px;}
+	.notification-block { top: 65px; }
+	.what-is-it-title{  font-size: 18px; font-weight: 700; color: #44546a; padding: 10px 0px;}
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	body {padding-top: 4.5rem;}
+	.navbar-nav .nav-link { color: #000; }
+	.nav-link span { width: 32px; display: inline-block; vertical-align: super; }
+	.nav-link img { vertical-align: middle; }
+	.sidebar .nav-item { line-height: 31px; }
+	/*.mobile-add { position: fixed;  bottom: 100px; right: 10px; z-index: 1; }*/
+	.mobile-add { position: fixed;  bottom: 30px; left: 0px; z-index: 1;opacity: 1;}
+	.navbar-nav .nav-item {
+		margin: 0;
+	}
+	.navbar-nav .nav-link {
+		border-bottom: 1px solid #d6d6d6;
+	}
+	.fixed-top { background: #FFFFFF; box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); border-radius: 0px; }
+	.right-block p { font-size: 25px;
+		line-height: 1.35; }
+
+	.home-banner::before { content: none; }
+	.home-banner::after {  content: ''; position: absolute; background: url("~/images/mobile-banner.png") no-repeat !important; width: 360px; height: 223px; top: inherit; bottom: 0; left: 50%; transform: translateX(-50%);  }
+	.footer .footer-links li a { margin-left: 0; display: block;  margin-top: 15px; }
+	.social-links { justify-content: center;     margin: 15px 0 30px 0; }
+	.footer .footer-links li { display: block; }
+	.footer-right { text-align: center; }
+	nav.float-action-button { top: -335px; right: 0; }
+	.footer-links li img { margin-top: 0; }
+
+	.contact-info a.btn-info{margin-right: 50px !important;}
+
+	.add-drug-tab .nav-link { justify-content: flex-start; }
+	.add-drug-tab .nav-link img { margin-right: 15px; }
+	
+	
+}
+
+@media only screen and (max-width : 1366px) { 
+	.home-banner::before { content: none; }
+	.home-banner::after {  content: ''; position: absolute; background: url("~/images/mobile-banner.png") no-repeat !important; width: 360px; height: 223px; top: inherit; bottom: 0; left: 50%; transform: translateX(-50%);  }
+ }
+@media only screen and (max-width : 320px) {
+	.form-control:focus ~ .float-label, .form-control:not(:placeholder-shown) ~ .float-label {font-size: 10px; }
+	.float-label { font-size: 10px; }
+	.form-control:focus ~ .float-label.mob-font, .form-control:not(:placeholder-shown) ~ .float-label.mob-font {
+		font-size: 10px;
+	}
+	.float-label.mob-font {
+		font-size: 10px;
+	}
+	.footer .footer-links li a {
+		font-size: 13px;
+		margin-left: 10px;
+	}
+	
+}
